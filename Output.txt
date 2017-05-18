@@ -1,0 +1,46 @@
+
+Traın mode =============================================================================================================
+
+"C:\Program Files\Anaconda3\envs\CondaEnvironmentWin\python.exe" "C:/Users/Administrator/Dropbox/Ozu/Ozu Courses/2.1 CS 452.A & CS 552.A  Data Science with Python/Project04/Ahad Aghapour_Project04/project04.py"
+
+
+To run this code set the all parameters you want.
+To evaluate performance of existing model embed in pickled file set justGetScoreFromPickle to True, otherwise
+if it set to False, it start to create train dataset and start to train the model which maybe time consuming with
+big dataset
+
+
+Star to generating captcha data (Train Mode) ....
+Start to split 5 digit captcha ....
+Start to fit  with 20000 data ....
+
+Start to pickle your model
+
+finished successfully!
+
+Process finished with exit code 0
+
+
+
+Test Mode ==============================================================================================================
+
+
+"C:\Program Files\Anaconda3\envs\CondaEnvironmentWin\python.exe" "C:/Users/Administrator/Dropbox/Ozu/Ozu Courses/2.1 CS 452.A & CS 552.A  Data Science with Python/Project04/Ahad Aghapour_Project04/project04.py"
+
+
+To run this code set the all parameters you want.
+To evaluate performance of existing model embed in pickled file set justGetScoreFromPickle to True, otherwise
+if it set to False, it start to create train dataset and start to train the model which maybe time consuming with
+big dataset
+
+
+Star to generating captcha data test (Test Mode) ....
+Start to split 5 digit captcha test ....
+Start to load pickle file and then evaluate our model...
+
+Score from pickled model for one number is:	0.91
+Score from pickled model for 5 digit number is:	0.71
+
+finished successfully!
+
+Process finished with exit code 0
